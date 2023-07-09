@@ -126,6 +126,9 @@ main{
 .resume{
     background: #FFF;
 }
+.resume-column-title{
+    font-size: 30px;
+}
 .resume-container{
     display: flex;
     flex-direction: row;
@@ -145,4 +148,11 @@ main{
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+.resume-container hr{
+    margin: 20px 0;
+}
+.download-container{
+    text-align: center;
+    margin-top: 50px;
 }
